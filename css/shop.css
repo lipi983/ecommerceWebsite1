@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins" sans-serif;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    object-fit: cover;
+}
+:root{
+    --deeporange:#B88E2F;
+    --textcolor:#898989;
+    --crimson:#E97171;
+    --lightman:#FCF8F3;
+}
+.section_padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.container{
+    max-width: 1183px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* Navbar */
+.navbar{
+    max-width: 1286px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+.navbar li{
+    margin:0 25px;
+}
+.navbar li a{
+    font-size: 16px;
+    line-height: auto;
+    color: black;
+    position: relative;
+    transition: 0.3s ease;
+   
+}
+ .active{
+    background-color: var(--deeporange);
+    border-radius: 10px;
+    color: white !important;
+    max-width: 70px;
+    width: 100%;
+    text-align: center;
+ }
+.navbar ul li a:hover{
+    background-color: var(--deeporange);
+    border-radius: 10px;
+    color: white;
+    max-width: 70px;
+    width: 100%;
+    text-align: center;
+}
+.navlist2{
+    display: flex;
+}
+.navlist2 li a:hover{
+    background: transparent !important;
+    color: var(--deeporange) !important;
+}
+.sticky{
+    position: fixed !important;
+    /* max-width:100% !important; */
+    width: 100% !important;
+    /* padding:30px 125px; */
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index:9999;
+    border-top: 0;
+}
+/* banner */
+.banner{
+    background-image: url("../images/Rectangle\ 1.png");
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+.head{
+    padding-top: 150px;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+}
+.head a{
+    font-size: 20px;
+    color: black;
+}
+.home{
+    font-weight: 600;
+}
+/* Our Products */
+.products{
+    padding-bottom: 50px;
+}
+.products h2{
+    margin-bottom: 40px;
+}
+.products .col{
+    width: 25%;
+    /* background-color: #F4F5F7; */
+}
+.products p{
+    color: var(--textcolor);
+    font-size: 16px;
+    margin-top: 15px;
+}
+.products figure{ 
+    overflow: hidden;
+    /* width: 100% !important; */
+}
+/* .products figure img{
+    width: 100% !important;
+} */
+.products .new_price{
+    color: #3A3A3A;
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.old_price{
+    text-decoration: line-through;
+}
+.products .col .card{
+    position: relative;
+    border: none;
+    background-color: #F4F5F7;
+    /* width: 100% !important; */
+}
+.products .row .col .card .card_text{
+    padding: 20px;
+}
+.card img{
+    position: relative;
+}
+.rupees{
+    background-color: #E97171;
+    color: white;
+    font-weight: 600;
+    /* font-size: 20px; */
+    height: 50px !important;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    border: none;
+    right: 10px;
+    top: 10px;
+}
+
+.card .layer{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(35, 34, 34,0.7);
+    text-align: center;
+    justify-content: center;
+    transition: 1s ease;
+    opacity: 0;
+}
+.laviosa .layer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-top: 60%;
+    background-color: rgb(35, 34, 34,0.7);
+    text-align: center;
+    justify-content: center;  
+    transition: 1s ease;
+    opacity: 1;
+}
+.card_text{
+    margin-top: 0;
+}
+.card .layer button{
+    background-color: white;
+    color: var(--deeporange);
+    padding: 15px 20px;
+    display: block !important;
+    max-width: 70%;
+    width: 100%;
+    margin-left: 15%;
+    border-radius: 0;
+    font-size: 18px;
+    transition: 0.3s ease;
+    margin-bottom: 30px;
+    transition: 0.3s ease;
+}
+.layer button:hover{
+    background-color: var(--deeporange);
+    color: white;
+}
+.layer a{
+    color: white;
+    padding: 20px 10px;
+    margin: 20px 0 !important;
+}
+.layer a:hover{
+    color: var(--deeporange);
+}
+.card:hover .layer{
+    height: 100% !important;
+    padding-top: 60%;
+    opacity:1;
+}
+.card:hover .rupees{
+    display: none;
+}
+.lolita .new_price{
+    margin-right: 7px;
+}
+.new{
+    background-color: #2EC1AC;
+}
+.pingky .new_price{
+    margin-right: 7px;
+}
+.show2{
+    border: 2px solid #B88E2F !important;
+    color: #B88E2F !important;
+    border-radius: 0;
+    padding: 10px 40px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3 ease;
+}
+.show2:hover{
+    background-color: #B88E2F;
+    color: white !important;
+}
+.page button{
+    background-color: #F9F1E7;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    margin: 30px 15px;
+    box-shadow: 0 0 10px rgb(58, 58, 58);
+    font-weight: bold;
+    font-size: 20px;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page button:hover{
+    background-color: #B88E2F;
+    color: white;
+}
+.num1{
+    background-color: #B88E2F !important;
+    color: white;
+}
+/* qualities */
+.quality{
+    background-color: #F9F1E7;
+}
+.quality .row .col{
+    display: flex;
+}
+.quality h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.quality img{
+    margin-right: 10px;
+    width: 50px;
+}
+.quality p{
+    /* font-size: 20px; */
+    color: #898989;
+}
+/* footer */
+.foot{
+    padding-top: 50px;
+}
+.foot ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.foot li a:hover{
+    color: var(--deeporange);
+}
+.foot ul li{
+    margin: 40px 0;
+    color: black;
+}
+.sun{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.drive{
+    max-width: 268px;
+    width: 100%;
+    color: var(--textcolor);
+}
+.drive  p{
+    color: var(--textcolor) !important;
+}
+.link{
+    font-size: 20px;
+    margin-left: 30px;
+    color: var(--textcolor);
+}
+.news{
+    color: var(--textcolor);
+}
+.foot input{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: none;
+}
+@media screen and (max-width:991px){
+    .navbar-nav{
+        flex-direction: column !important;
+    }
+    .products .row{
+        flex-direction: column;
+    }
+    .products .row .col{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .products .card figure img{
+        width: 100%;
+        min-height: 200px !important;
+    }
+    
+   
+}
+@media screen and (max-width:489px){
+    .page button{
+        padding: 12px;
+        margin: 5px;
+    }
+}

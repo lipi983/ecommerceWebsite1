@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Website</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--Bootstarp  css -->
+    <link rel="stylesheet" href="./bootstarp/css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/Frame 168.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">Shop</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <ul class="navlist2">
+              <li>
+                <a href="#"><i class="fa-regular fa-user"></i>!</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="container">
+          <div
+            class="banheading"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <p>New Arrival</p>
+            <h1>Discover Our New Collection</h1>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis.
+            </p>
+            <button class="btn">BUY NOW</button>
+          </div>
+        </div>
+      </section>
+      <!-- Browse The Range -->
+      <section class="browse section_padding">
+        <div class="container">
+          <div
+            class="heading"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <h2>Browse The Range</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div
+            class="row"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="300"
+          >
+            <div
+              class="col"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <img src="./images/Mask Group (53).png" alt="dining" />
+              <p>Dining</p>
+            </div>
+            <div class="col">
+              <img src="./images/Image-living room.png" alt="living" />
+              <p>Living</p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <img src="./images/Mask Group (54).png" alt="bedroom" />
+              <p>Bedroom</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Products -->
+      <section class="products">
+        <div class="container">
+          <div
+            class="heading"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <h2>Our Products</h2>
+          </div>
+          <div
+            class="row"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="card">
+                <figure>
+                  <img src="./images/Images.png" alt="Syltherine" />
+                </figure>
+                <button class="rupees">-30%</button>
+                <div class="card_text">
+                  <h3>Syltherine</h3>
+                  <p>Stylish cafe chair</p>
+                  <p>
+                    <span class="new_price">Rp 2.500.000</span
+                    ><span class="old_price">Rp 3.500.000</span>
+                  </p>
+                </div>
+                <div class="layer">
+                  <button class="btn">Add to cart</button>
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                  <a href="#">
+                    <img src="./images/compare-svgrepo-com 1.png" alt="arow" />
+                    Compare
+                  </a>
+                  <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col laviosa"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="card">
+                <figure>
+                  <img src="./images/image 2.png" alt="Syltherine" />
+                </figure>
+
+                <div class="card_text">
+                  <h3>Laviosa</h3>
+                  <p>Stylish cafe chair</p>
+                  <p>
+                    <span class="new_price">Rp 2.500.000</span>
+                  </p>
+                </div>
+                <div class="layer">
+                  <button class="btn">Add to cart</button>
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                  <a href="#">
+                    <img src="./images/compare-svgrepo-com 1.png" alt="arow" />
+                    Compare
+                  </a>
+                  <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col lolita"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="card">
+                <figure>
+                  <img src="./images/Images (1).png" alt="Syltherine" />
+                </figure>
+                <button class="rupees">-50%</button>
+                <div class="card_text">
+                  <h3>Lolito</h3>
+                  <p>Luxury big sofa</p>
+                  <p>
+                    <span class="new_price">Rp 7.000.000</span
+                    ><span class="old_price">Rp 14.000.000</span>
+                  </p>
+                </div>
+                <div class="layer">
+                  <button class="btn">Add to cart</button>
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                  <a href="#">
+                    <img src="./images/compare-svgrepo-com 1.png" alt="arow" />
+                    Compare
+                  </a>
+                  <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col respira"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="card">
+                <figure>
+                  <img src="./images/Images (2).png" alt="respira" />
+                </figure>
+                <button class="rupees new">New</button>
+                <div class="card_text">
+                  <h3>Respira</h3>
+                  <p>Outdoor bar table and stool</p>
+                  <p>
+                    <span class="new_price">Rp 500.000</span>
+                  </p>
+                </div>
+                <div class="layer">
+                  <button class="btn">Add to cart</button>
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                  <a href="#">
+                    <img src="./images/compare-svgrepo-com 1.png" alt="arow" />
+                    Compare
+                  </a>
+                  <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row mt-4"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="card">
+                <figure>
+                  <img src="./images/Images (3).png" alt="Grifo" />
+                </figure>
+                <div class="card_text">
+                  <h3>Grifo</h3>
+                  <p>Night lamp</p>
+                  <p>
+                    <span class="new_price">Rp 1.500.000</span>
+                  </p>
+                </div>
+                <div class="layer">
+                  <button class="btn">Add to cart</button>
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                  <a href="#">
+                    <img src="./images/compare-svgrepo-com 1.png" alt="arow" />
+                    Compare
+                  </a>
+                  <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="card">
+                <figure>
+                  <img src="./images/Images (4).png" alt="Muggo" />
+                </figure>
+                <button class="rupees new">New</button>
+                <div class="card_text">
+                  <h3>Muggo</h3>
+                  <p>Small mug</p>
+                  <p>
+                    <span class="new_price">Rp 150.000</span>
+                  </p>
+                </div>
+                <div class="layer">
+                  <button class="btn">Add to cart</button>
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                  <a href="#">
+                    <img src="./images/compare-svgrepo-com 1.png" alt="arow" />
+                    Compare
+                  </a>
+                  <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col pingky"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="card">
+                <figure>
+                  <img src="./images/Images (5).png" alt="Pingky" />
+                </figure>
+                <button class="rupees">-50%</button>
+                <div class="card_text">
+                  <h3>Pingky</h3>
+                  <p>Cute bed set</p>
+                  <p>
+                    <span class="new_price">Rp 7.000.000</span
+                    ><span class="old_price">Rp 14.000.000</span>
+                  </p>
+                </div>
+                <div class="layer">
+                  <button class="btn">Add to cart</button>
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                  <a href="#">
+                    <img src="./images/compare-svgrepo-com 1.png" alt="arow" />
+                    Compare
+                  </a>
+                  <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="card">
+                <figure>
+                  <img src="./images/Images (6).png" alt="Potty" />
+                </figure>
+                <button class="rupees new">New</button>
+                <div class="card_text">
+                  <h3>Potty</h3>
+                  <p>Minimalist flower pot</p>
+                  <p>
+                    <span class="new_price">Rp 500.000</span>
+                  </p>
+                </div>
+                <div class="layer">
+                  <button class="btn">Add to cart</button>
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                  <a href="#">
+                    <img src="./images/compare-svgrepo-com 1.png" alt="arow" />
+                    Compare
+                  </a>
+                  <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="btn show2"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            Show More
+          </button>
+        </div>
+      </section>
+      <!-- 50+ Beautiful rooms inspiration -->
+      <section class="rooms">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col roomText"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <h2>50+ Beautiful rooms inspiration</h2>
+              <p>
+                Our designer already made a lot of beautiful prototipe of rooms
+                that inspire you
+              </p>
+              <button class="btn more">Explore More</button>
+            </div>
+            <div
+              class="col roomImage"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./images/Rectangle 24 (1).png" alt="room" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/Rectangle 25 (1).png" alt="room" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/Images (6).png" alt="room" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/Images (5).png" alt="room" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/Images (4).png" alt="room" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/Images (3).png" alt="room" />
+                  </div>
+                  <!-- <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div> -->
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Share your setup with -->
+      <section class="setUp section_padding">
+        <div class="container-fluid">
+          <div class="heading">
+            <p>Share your setup with</p>
+            <h2>#FuniroFurniture</h2>
+          </div>
+          <div class="mainSet">
+            <div class="leftD">
+              <div class="leftT">
+                <div>
+                  <img src="./images/Rectangle 36.png" alt="furniture" />
+                </div>
+                <div class="tv">
+                  <img src="./images/Rectangle 38.png" alt="furniture" />
+                </div>
+              </div>
+              <div class="leftB">
+                <div>
+                  <img src="./images/Rectangle 37 (1).png" alt="furniture" />
+                </div>
+                <div class="flowervash">
+                  <img src="./images/Rectangle 39.png" alt="furniture" />
+                </div>
+              </div>
+            </div>
+            <div class="middleD">
+              <img src="./images/Rectangle 40.png" alt="diningTable" />
+            </div>
+            <div class="rightD">
+              <div class="rightT">
+                <div class="bed">
+                  <img src="./images/Rectangle 43.png" alt="bed" />
+                </div>
+                <div>
+                  <img src="./images/Rectangle 45 (11).png" alt="DiningTable" />
+                </div>
+              </div>
+              <div class="rightB">
+                <div>
+                  <img src="./images/Rectangle 41.png" alt="furniture" />
+                </div>
+                <div class="kitchen">
+                  <img src="./images/Rectangle 44 (6).png" alt="kitchen" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr />
+   <footer>
+      <div class="foot">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p class="sun">Suniro.</p>
+              <p class="drive">
+                400 University Drive Suite 200 Coral Gables, <br />
+                FL 33134 USA
+              </p>
+            </div>
+            <div class="col lH">
+              <p class="link">Link</p>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col lH">
+              <p class="link">Help</p>
+              <ul>
+                <li><a href="#">Payment Options</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Privacy Policies</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <p class="news lH">Newsletter</p>
+              <from>
+                <input
+                  type="mail"
+                  placeholder="Enter Your Email Address"
+                  id="mail"
+                  name="mail"
+                />
+                <input type="submit" value="SUBSCRIBE" />
+              </from>
+            </div>
+          </div>
+          <hr />
+          <p>2023 furino. All rights reverved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- bootstarp js cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- bootstarp js -->
+    <script src="./bootstarp/js/bootstrap.min.js"></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- js -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
